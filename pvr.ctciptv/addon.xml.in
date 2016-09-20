@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="pvr.ctciptv"
+  version="0.0.1"
+  name="PVR China Telecom IPTV Client"
+  provider-name="Tao Mo">
+  <requires>
+    <c-pluff version="0.1"/>
+    <import addon="xbmc.pvr" version="5.2.0"/>
+  </requires>
+  <extension
+    point="xbmc.pvrclient"
+    library_@PLATFORM@="@LIBRARY_FILENAME@"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_US">China Telecom IPTV PVR Client</summary>
+    <summary lang="zh_CN">PVR 中国电信 IPTV 客户端</summary>
+    <description lang="en_US">China Telecom IPTV PVR Client</description>
+    <description lang="zh_CN">PVR 中国电信 IPTV 客户端</description>
+    <disclaimer lang="en_US">Just contains stubs</disclaimer>
+    <disclaimer lang="zh_CN">只包含存根</disclaimer>
+    <platform>@PLATFORM@</platform>
+  </extension>
+</addon>
