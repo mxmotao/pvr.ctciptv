@@ -17,8 +17,8 @@ include_directories(${kodiplatform_INCLUDE_DIRS}
 set(DEPLIBS ${kodiplatform_LIBRARIES}
             ${p8-platform_LIBRARIES})
 
-set(PVRDEMO_SOURCES src/client.cpp
-                    src/PVRCTCIPTV.cpp)
+set(PVRCTCIPTV_SOURCES src/client.cpp
+                       src/PVRCTCIPTV.cpp)
 
 build_addon(pvr.ctciptv PVRCTCIPTV DEPLIBS)
 
