@@ -21,6 +21,7 @@
 
 #include "client.h"
 #include "xbmc_pvr_dll.h"
+#include "PVRCTCIPTV.h"
 #include <p8-platform/util/util.h>
 
 using namespace std;
